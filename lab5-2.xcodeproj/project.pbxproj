@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		5C10F4641BE71C3E00548425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4631BE71C3E00548425 /* main.m */; };
 		5C10F4671BE71C3E00548425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4661BE71C3E00548425 /* AppDelegate.m */; };
-		5C10F46A1BE71C3E00548425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4691BE71C3E00548425 /* ViewController.m */; };
 		5C10F46D1BE71C3E00548425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F46B1BE71C3E00548425 /* Main.storyboard */; };
 		5C10F46F1BE71C3E00548425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F46E1BE71C3E00548425 /* Images.xcassets */; };
 		5C10F4721BE71C3E00548425 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F4701BE71C3E00548425 /* LaunchScreen.xib */; };
 		5C10F47E1BE71C3E00548425 /* lab5_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F47D1BE71C3E00548425 /* lab5_2Tests.m */; };
+		5C10F48F1BE71CD100548425 /* battleship.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4881BE71CD100548425 /* battleship.m */; };
+		5C10F4901BE71CD100548425 /* playgroundbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F48A1BE71CD100548425 /* playgroundbutton.m */; };
+		5C10F4911BE71CD100548425 /* playground.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F48C1BE71CD100548425 /* playground.m */; };
+		5C10F4921BE71CD100548425 /* myviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F48E1BE71CD100548425 /* myviewcontroller.m */; };
+		5C10F4941BE8220A00548425 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C10F4931BE8220A00548425 /* AudioToolbox.framework */; };
+		5C10F4A01BE86C8A00548425 /* gamewin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F49D1BE86C8A00548425 /* gamewin.wav */; };
+		5C10F4A11BE86C8A00548425 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F49E1BE86C8A00548425 /* hit.wav */; };
+		5C10F4A21BE86C8A00548425 /* lost-hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C10F49F1BE86C8A00548425 /* lost-hit.wav */; };
+		5C10F4A71BE92B9900548425 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C10F4A61BE92B9900548425 /* GameKit.framework */; };
+		5CE9C5B41BE936E0009C552D /* gamecentercontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9C5B31BE936E0009C552D /* gamecentercontrol.m */; };
+		5CE9C5B61BE9E4F9009C552D /* battleship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE9C5B51BE9E4F9009C552D /* battleship.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +42,28 @@
 		5C10F4631BE71C3E00548425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C10F4651BE71C3E00548425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C10F4661BE71C3E00548425 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C10F4681BE71C3E00548425 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C10F4691BE71C3E00548425 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5C10F46C1BE71C3E00548425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C10F46E1BE71C3E00548425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C10F4711BE71C3E00548425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5C10F4771BE71C3E00548425 /* lab5-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lab5-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C10F47C1BE71C3E00548425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C10F47D1BE71C3E00548425 /* lab5_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab5_2Tests.m; sourceTree = "<group>"; };
+		5C10F4871BE71CD100548425 /* battleship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = battleship.h; sourceTree = "<group>"; };
+		5C10F4881BE71CD100548425 /* battleship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = battleship.m; sourceTree = "<group>"; };
+		5C10F4891BE71CD100548425 /* playgroundbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playgroundbutton.h; sourceTree = "<group>"; };
+		5C10F48A1BE71CD100548425 /* playgroundbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playgroundbutton.m; sourceTree = "<group>"; };
+		5C10F48B1BE71CD100548425 /* playground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playground.h; path = "lab5-2/playground.h"; sourceTree = SOURCE_ROOT; };
+		5C10F48C1BE71CD100548425 /* playground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = playground.m; path = "lab5-2/playground.m"; sourceTree = SOURCE_ROOT; };
+		5C10F48D1BE71CD100548425 /* myviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myviewcontroller.h; sourceTree = "<group>"; };
+		5C10F48E1BE71CD100548425 /* myviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myviewcontroller.m; sourceTree = "<group>"; };
+		5C10F4931BE8220A00548425 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5C10F49D1BE86C8A00548425 /* gamewin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gamewin.wav; sourceTree = "<group>"; };
+		5C10F49E1BE86C8A00548425 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		5C10F49F1BE86C8A00548425 /* lost-hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "lost-hit.wav"; sourceTree = "<group>"; };
+		5C10F4A61BE92B9900548425 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5CE9C5B21BE936E0009C552D /* gamecentercontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamecentercontrol.h; sourceTree = "<group>"; };
+		5CE9C5B31BE936E0009C552D /* gamecentercontrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gamecentercontrol.m; sourceTree = "<group>"; };
+		5CE9C5B51BE9E4F9009C552D /* battleship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = battleship.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C10F4941BE8220A00548425 /* AudioToolbox.framework in Frameworks */,
+				5C10F4A71BE92B9900548425 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,8 @@
 		5C10F4551BE71C3E00548425 = {
 			isa = PBXGroup;
 			children = (
+				5C10F4A61BE92B9900548425 /* GameKit.framework */,
+				5C10F4931BE8220A00548425 /* AudioToolbox.framework */,
 				5C10F4601BE71C3E00548425 /* lab5-2 */,
 				5C10F47A1BE71C3E00548425 /* lab5-2Tests */,
 				5C10F45F1BE71C3E00548425 /* Products */,
@@ -81,13 +109,25 @@
 		5C10F4601BE71C3E00548425 /* lab5-2 */ = {
 			isa = PBXGroup;
 			children = (
+				5CE9C5B21BE936E0009C552D /* gamecentercontrol.h */,
+				5CE9C5B31BE936E0009C552D /* gamecentercontrol.m */,
+				5C10F4871BE71CD100548425 /* battleship.h */,
+				5C10F4881BE71CD100548425 /* battleship.m */,
+				5C10F4891BE71CD100548425 /* playgroundbutton.h */,
+				5C10F48A1BE71CD100548425 /* playgroundbutton.m */,
+				5C10F48B1BE71CD100548425 /* playground.h */,
+				5C10F48C1BE71CD100548425 /* playground.m */,
+				5C10F48D1BE71CD100548425 /* myviewcontroller.h */,
+				5C10F48E1BE71CD100548425 /* myviewcontroller.m */,
 				5C10F4651BE71C3E00548425 /* AppDelegate.h */,
 				5C10F4661BE71C3E00548425 /* AppDelegate.m */,
-				5C10F4681BE71C3E00548425 /* ViewController.h */,
-				5C10F4691BE71C3E00548425 /* ViewController.m */,
 				5C10F46B1BE71C3E00548425 /* Main.storyboard */,
 				5C10F46E1BE71C3E00548425 /* Images.xcassets */,
 				5C10F4701BE71C3E00548425 /* LaunchScreen.xib */,
+				5CE9C5B51BE9E4F9009C552D /* battleship.jpg */,
+				5C10F49D1BE86C8A00548425 /* gamewin.wav */,
+				5C10F49E1BE86C8A00548425 /* hit.wav */,
+				5C10F49F1BE86C8A00548425 /* lost-hit.wav */,
 				5C10F4611BE71C3E00548425 /* Supporting Files */,
 			);
 			path = "lab5-2";
@@ -168,6 +208,12 @@
 				TargetAttributes = {
 					5C10F45D1BE71C3E00548425 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KACMQNFS8H;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					5C10F4761BE71C3E00548425 = {
 						CreatedOnToolsVersion = 6.4;
@@ -201,7 +247,11 @@
 			files = (
 				5C10F46D1BE71C3E00548425 /* Main.storyboard in Resources */,
 				5C10F4721BE71C3E00548425 /* LaunchScreen.xib in Resources */,
+				5C10F4A11BE86C8A00548425 /* hit.wav in Resources */,
+				5CE9C5B61BE9E4F9009C552D /* battleship.jpg in Resources */,
 				5C10F46F1BE71C3E00548425 /* Images.xcassets in Resources */,
+				5C10F4A21BE86C8A00548425 /* lost-hit.wav in Resources */,
+				5C10F4A01BE86C8A00548425 /* gamewin.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C10F46A1BE71C3E00548425 /* ViewController.m in Sources */,
+				5C10F4921BE71CD100548425 /* myviewcontroller.m in Sources */,
+				5CE9C5B41BE936E0009C552D /* gamecentercontrol.m in Sources */,
+				5C10F4911BE71CD100548425 /* playground.m in Sources */,
 				5C10F4671BE71C3E00548425 /* AppDelegate.m in Sources */,
+				5C10F4901BE71CD100548425 /* playgroundbutton.m in Sources */,
 				5C10F4641BE71C3E00548425 /* main.m in Sources */,
+				5C10F48F1BE71CD100548425 /* battleship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +403,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "lab5-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "lab5-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +478,7 @@
 				5C10F4831BE71C3E00548425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C10F4841BE71C3E00548425 /* Build configuration list for PBXNativeTarget "lab5-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +487,7 @@
 				5C10F4861BE71C3E00548425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
